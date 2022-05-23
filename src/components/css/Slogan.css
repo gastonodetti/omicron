@@ -1,0 +1,18 @@
+@media (min-width: 1025px) {
+
+
+.sloganDiv{
+    border: solid 2px red;
+    height: min-content;
+}
+
+
+.sloganDiv div {
+    border: solid 1px blue;
+}
+.sloganDiv div h1 {
+    font-size: 80px;
+    width: max-content;
+}
+
+}

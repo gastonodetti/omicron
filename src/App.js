@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from "./components/Header"
+import Slogan from "./components/Slogan"
 
 function App() {
   return (
     <div>
-      <div>Header</div>
-      <div>Slogan + presentacion</div>
+      <Header />
+      <Slogan />
       <div>Areas de trabajo</div>
       <div>Mision y valores</div>
       <div>Clientes, cirugias, otra info, numeros, catalogos</div>
@@ -16,3 +17,13 @@ function App() {
 }
 
 export default App;
+
+/* media queries 
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+
+*/

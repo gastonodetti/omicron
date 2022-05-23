@@ -1,0 +1,23 @@
+@media (min-width: 1025px) {
+
+.headerDiv{
+    height: min-content;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerDiv img {
+    height: 100px;
+}
+
+.headerButtons * {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px
+}
+
+
+}
